@@ -41,17 +41,19 @@ def display_credentials():
      return Credential.display_credentials()
 
 def main():
-    print("Hello! What is your name?")
+    print("PASSWORD-LOCKER")
+
+    print("Hello user! What is your name?")
     u_name = input()
     print("\n")
-    print(f"Hello {u_name}.")
+    print(f"Welcome {u_name}.")
     while True:
-        print("\nUse these short codes below:")
+        print("\nUse these  codes below:")
         print("." * 40)
-        print("\n ca - create an account, cc - create credentials, gp - generate password, cp - create own password, ex - exit password locker, dc - display credentials")
+        print("\n ma - make account, mc - make credentials, gp - generate password, cp - create own password, ex - exit password locker, dc - display credentials")
         short_code = input().lower()
 
-        if short_code == 'ca':
+        if short_code == 'ma':
             print("New account")
             print("." * 14)
 
@@ -68,7 +70,7 @@ def main():
             print("\n")
             print(f"New Account **{user_name}** created.\n")
 
-        elif short_code == "cc":
+        elif short_code == "mc":
             print("\nLogin to your account")
             print("."*40)
             print("\nUsername?")
