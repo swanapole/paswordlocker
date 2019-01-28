@@ -38,3 +38,4 @@ Not yet identified any but the user is welcome to view and identify if any
 -the credentials can only be viewed by the account holder
 
 ## Technologies used
+python3.6
