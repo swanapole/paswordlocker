@@ -26,3 +26,6 @@ run this command lines in your terminal:
 chmod +x run.py
 
 ./run.py
+
+## Known bugs
+Not yet identified any but the user is welcome to view and identify if any
