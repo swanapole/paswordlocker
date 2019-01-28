@@ -39,3 +39,6 @@ Not yet identified any but the user is welcome to view and identify if any
 
 ## Technologies used
 python3.6
+
+## Contact details
+0790572915
