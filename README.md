@@ -46,3 +46,7 @@ python3.6
 swanapoleshilla@yahoo.com
 
 ## licence
+
+MIT License
+
+Copyright (c) 2019 SHILLA SWANAPOLE
