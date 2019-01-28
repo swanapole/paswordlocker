@@ -33,6 +33,6 @@ Not yet identified any but the user is welcome to view and identify if any
 ## BDD
 -the user creates an account
 
--the user stores with an already existing account creates credential_list
+-the user stores with an already existing account creates credential
 
 -the credentials can only be viewed by the account holder
