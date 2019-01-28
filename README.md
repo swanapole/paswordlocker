@@ -29,3 +29,7 @@ chmod +x run.py
 
 ## Known bugs
 Not yet identified any but the user is welcome to view and identify if any
+
+## BDD
+-the user creates an account
+-
