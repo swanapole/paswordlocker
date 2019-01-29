@@ -44,13 +44,14 @@ def main():
     print("PASSWORD-LOCKER")
 
     print("Hello user! What is your name?")
-    u_name = input()
+
+    users_name = input()
     print("\n")
-    print(f"Welcome {u_name}.")
+    print(f"Welcome {users_name}.")
     while True:
         print("\nUse these  codes below:")
         print("." * 40)
-        print("\n ma - make account, mc - make credentials, gp - generate password, cp - create own password, ex - exit password locker, dc - display credentials")
+        print("\n ma - make account, mc - make credentials, mp - make password, op -  own password, exit - exit password locker, dc - display credentials")
         short_code = input().lower()
 
         if short_code == 'ma':
@@ -95,13 +96,13 @@ def main():
 
                 print("\nChoose:")
                 print("."*20)
-                print("'gp' - program to generate your password for you, 'cp' - create your own password")
+                print("'mp' - program to make your password for you, 'op' - create your own password")
                 password_creation_input = input()
-                if password_creation_input == "cp":
+                if password_creation_input == "op":
                     print("\nEnter your password")
                     print("."*20)
                     pass_word = input()
-                elif password_creation_input == "gp":
+                elif password_creation_input == "mp":
                     chars = "abcdefghijklmnopqrstuvwxyz1234567890"
                     pass_word = "".join(random.choice(chars) for _ in range(8))
                     print(f"\nYour password is: **{pass_word}**")
@@ -132,9 +133,9 @@ def main():
             else:
                 print("\n You don't seem to have any credentials saved yet")
 
-        elif short_code == 'ex':
+        elif short_code == 'exit':
             print("."*50)
-            print("Thank you for using Password Locker...")
+            print("BYE..Thank you for using Password Locker...")
             print("."*50)
             break
 
