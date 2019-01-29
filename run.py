@@ -45,9 +45,9 @@ def main():
 
     print("Hello user! What is your name?")
 
-    users_name = input()
+    use_name = input()
     print("\n")
-    print(f"Welcome {users_name}.")
+    print(f"Welcome {use_name}.")
     while True:
         print("\nUse these  codes below:")
         print("." * 40)
